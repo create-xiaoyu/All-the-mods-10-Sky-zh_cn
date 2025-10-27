@@ -7,7 +7,7 @@ let $HashSet = Java.loadClass("java.util.HashSet")
 let bannedItems = new $HashSet()
 
 NetworkEvents.dataReceived("banned_items", (event) => {
-  console.log("收到被封禁的物品")
+  console.log("接收到被封禁的物品")
   event.data.get("banned_items").forEach((value) => {
     console.log("添加物品 " + value + " 到封禁列表")
     bannedItems.add(value.getAsString())

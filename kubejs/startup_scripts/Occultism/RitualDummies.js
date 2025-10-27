@@ -6,7 +6,7 @@ StartupEvents.registry("item", (allthemods) => {
     .create("ritual_dummy/honeycomb", "occultism:ritual_dummy")
     .pentacleType("craft")
     .displayName("仪式：制作蜜脾")
-    .ritualTooltip("魔精会像蜜蜂一样行动，产出蜜脾")
+    .ritualTooltip("魔精会像蜜蜂一样行动，产出蜜脾。")
   allthemods
     .create("ritual_dummy/upgrade_ritual_satchel_t1_to_t2", "occultism:ritual_dummy")
     .pentacleType("craft")

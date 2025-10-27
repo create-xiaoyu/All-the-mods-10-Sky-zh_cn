@@ -1,7 +1,7 @@
 {
   "conditions": [],
   "description": {
-    "text": "装备时移除漂浮效果"
+    "text": "装备时解除漂浮效果"
   },
   "effects": [
     {

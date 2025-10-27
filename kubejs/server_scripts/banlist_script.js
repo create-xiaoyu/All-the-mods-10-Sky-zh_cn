@@ -83,7 +83,7 @@ if (!Platform.isClientEnvironment()) {
       let pos
       while ((pos = blocksToRemove.poll()) != null) {
         addSignToPos(event.level, pos)
-        event.level.server.tell("删除被封禁的方块实体于 " + pos.toShortString())
+        event.level.server.tell("已删除被封禁的方块实体于 " + pos.toShortString())
       }
     })
     LevelEvents.unloaded((event) => {

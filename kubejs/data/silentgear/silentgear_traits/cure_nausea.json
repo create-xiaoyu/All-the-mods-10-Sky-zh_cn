@@ -1,7 +1,7 @@
 {
   "conditions": [],
   "description": {
-    "text": "装备时消除反胃效果"
+    "text": "装备时解除反胃效果"
   },
   "effects": [
     {
