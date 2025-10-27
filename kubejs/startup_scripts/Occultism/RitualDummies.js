@@ -5,14 +5,14 @@ StartupEvents.registry("item", (allthemods) => {
   allthemods
     .create("ritual_dummy/honeycomb", "occultism:ritual_dummy")
     .pentacleType("craft")
-    .displayName("Ritual: Craft Honeycomb")
-    .ritualTooltip("A Foliot will act as a bee, producing Honeycombs.")
+    .displayName("仪式：制作蜜脾")
+    .ritualTooltip("魔精会像蜜蜂一样行动，产出蜜脾")
   allthemods
     .create("ritual_dummy/upgrade_ritual_satchel_t1_to_t2", "occultism:ritual_dummy")
     .pentacleType("craft")
-    .displayName("Ritual: Upgrade Apprentice Ritual Satchel to Artisanal")
+    .displayName("仪式：将学徒仪式挎包升级为匠心仪式挎包")
     .ritualTooltip(
-      "Upgrades an Apprentice Ritual Satchel to Artisanal by binding an Afrit to it, allowing the summoner to build pentacles all at once."
+      "通过将火灵绑定到学徒仪式挎包将其升级为匠心级，使召唤师能一次性建造五芒星。"
     )
 })
 
