@@ -7,7 +7,7 @@ const $CreatingFluxRecipeCategory = Java.loadClass("sonar.fluxnetworks.client.je
 RecipeViewerEvents.addEntries("item", (allthemods) => {
   let jeiRuntime = global.jeiRuntime
   if (!jeiRuntime) {
-    console.log("Jei Runtime not found, skipping recipes")
+    console.log("Jei运行时未找到，跳过该配方")
     return
   }
 

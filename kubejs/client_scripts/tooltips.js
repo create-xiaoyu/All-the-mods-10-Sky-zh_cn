@@ -3,22 +3,22 @@
 
 ItemEvents.modifyTooltips((allthemods) => {
   //AllTheModium
-  allthemods.add("allthemodium:teleport_pad", [Text.of("Mining Dimension Disabled")])
+  allthemods.add("allthemodium:teleport_pad", [Text.of("采矿维度已禁用")])
   //Ars Controle
   allthemods.add("ars_controle:scryers_linkage", [
     Text.of(""),
-    Text.of("§7Fake Search Aliases:"),
-    Text.of("§7- Entangled"),
-    Text.of("§7- Entangled Block")
+    Text.of("§7假搜索别名:"),
+    Text.of("§7- 纠缠"),
+    Text.of("§7- 纠缠方块")
   ])
 
   //Forbidden Arcanus
   allthemods.add("forbidden_arcanus:hephaestus_forge_tier_1", [
-    Text.of("§c§lShift-Right-Click§r§c the §c§lSmithing Table§r§c with §lMundabitur Dust"),
-    Text.of("§c█ = Gilded Chiseled Polished Darkstone with Smithing Table on top"),
-    Text.of("§7█ = Polished Darkstone"),
-    Text.of("§5█§7 = Gilded Chiseled Polished Darkstone"),
-    Text.of("§6█§7 = Chiseled Arcane Polished Darkstone"),
+    Text.of("§c手持§l洁净粉末对§c§l锻造台§r§c按住§c§lShift并点击右键"),
+    Text.of("§c█ = 錾制磨制暗黑石（顶部放置锻造台）"),
+    Text.of("§7█ = 磨制暗黑石"),
+    Text.of("§5█§7 = 錾制磨制暗黑石"),
+    Text.of("§6█§7 = 錾制神秘磨制暗黑石"),
     Text.of("§0███§7███§0███"),
     Text.of("§0█§7███§5█§7███§0█"),
     Text.of("§0█§7█§5█§7███§5█§7█§0█"),
@@ -30,54 +30,54 @@ ItemEvents.modifyTooltips((allthemods) => {
     Text.of("§0███§7███§0███")
   ])
   allthemods.add("forbidden_arcanus:clibano_core", [
-    Text.of("§c§lShift-Right-Click§r§c the §c§lClibano Core§r§c with §c§lMundabitur Dust"),
-    Text.of("§5█§7 = Polished Darkstone"),
-    Text.of("§7█ = Polished Darkstone Bricks"),
-    Text.of("§6█§7 = Clibano Core"),
-    Text.of("§7Right to Left -> Bottom to Top"),
+    Text.of("§c手持§l洁净粉末对§c§l炽炉核心§r§c按住§c§lShift并点击右键"),
+    Text.of("§5█§7 = 磨制暗黑石"),
+    Text.of("§7█ = 磨制暗黑石砖"),
+    Text.of("§6█§7 = 炽炉核心"),
+    Text.of("§7从右到左 -> 从下到上"),
     Text.of("§5█§7█§5█§0█§7███§0█§5█§7█§5█"),
     Text.of("§7███§0█§7█§0█§7█§0█§7███"),
     Text.of("§5█§7█§5█§0█§7█§6█§7█§0█§5█§7█§5█")
   ])
   allthemods.add("forbidden_arcanus:growing_edelwood", [
-    Text.of("§4Obtainable from the Wandering Trader"),
-    Text.of("§4Or by using a Corrupt Soul on an Oak Sapling")
+    Text.of("§4可从流浪商人处获得"),
+    Text.of("§4或者对橡树树苗使用腐化灵魂")
   ])
   allthemods.add("forbidden_arcanus:magnetized_darkstone_pedestal", [
-    Text.of("§7Use Ferrognetic Mixture on the Darkstone Pedesta")
+    Text.of("§7对暗黑石基座使用铁磁性混合物")
   ])
-  allthemods.add("forbidden_arcanus:soul", [Text.of("§7Use a Soul Extractor on Soul Sand")])
-  allthemods.add("forbidden_arcanus:enchanted_soul", [Text.of("§7Use a Splash Aureal Bottle on a normal soul")])
-  allthemods.add("forbidden_arcanus:corrupt_soul", [Text.of("§7Rarely spawns when killing mobs")])
+  allthemods.add("forbidden_arcanus:soul", [Text.of("§7对灵魂沙使用灵魂提取器")])
+  allthemods.add("forbidden_arcanus:enchanted_soul", [Text.of("§7对普通灵魂使用喷溅型辉光瓶")])
+  allthemods.add("forbidden_arcanus:corrupt_soul", [Text.of("§7击杀生物时有小概率生成")])
   allthemods.add("forbidden_arcanus:blood_test_tube", [
-    Text.of("§7Hold a test tube in your off-hand and then kill mobs")
+    Text.of("§7副手拿着试管时击杀生物")
   ])
   allthemods.add("forbidden_arcanus:xpetrified_orb", [
-    Text.of("§7Only obtainable via the Black Hole"),
-    Text.of("§7To make a Black Hole throw Dark Matter together with Corrupti Dust on the ground"),
-    Text.of("§7Feed it enough xp to make it spit out an Xpetrified Orb")
+    Text.of("§7仅能通过黑洞获取"),
+    Text.of("§7将暗物质和腐化粉末扔在地面以制作黑洞"),
+    Text.of("§7给它足够的经验它会吐出一个石化经验球")
   ])
-  allthemods.add("forbidden_arcanus:dragon_scale", [Text.of("§7Dropped by the Ender Dragon")])
-  allthemods.add("forbidden_arcanus:crescent_moon", [Text.of("§cUnobtainable")])
-  allthemods.add("forbidden_arcanus:soul_crimson_stone", [Text.of("§cWill turn into a Crimson Stone after 1 use")])
+  allthemods.add("forbidden_arcanus:dragon_scale", [Text.of("§7由末影龙掉落")])
+  allthemods.add("forbidden_arcanus:crescent_moon", [Text.of("§c无法获取")])
+  allthemods.add("forbidden_arcanus:soul_crimson_stone", [Text.of("§c使用1次后将变为绯红之石")])
 
   //Mystical Agriculture
   allthemods.add(/mysticalagriculture:.*watering_can/, [
-    Text.of("§cDisabled for Fake Player"),
-    Text.of("§c(Blocks like Modular Routers, Clickers, etc)")
+    Text.of("§c对假人禁用"),
+    Text.of("§c(包括模块化路由器，连点器等方块)")
   ])
   //Occultism
-  allthemods.add("kubejs:ritual_dummy/honeycomb", [Text.of("§7Tier: Foliot")])
+  allthemods.add("kubejs:ritual_dummy/honeycomb", [Text.of("§7等阶：魔精")])
   allthemods.add("kubejs:ritual_dummy/upgrade_ritual_satchel_t1_to_t2", [
     Text.of(
-      "§cWARNING: Will delete all items in the Apprentice Satchel. Consider taking out all items from the Apprentice Satchel."
+      "§c警告：将删除学徒背包中的所有物品。请考虑先取出学徒背包中的所有物品。"
     ),
-    Text.of("§7Tier: Afrit")
+    Text.of("§7等阶：火灵")
   ])
   //Create
-  allthemods.add("create:limestone", [Text.of("Make a Lava Source Block flow on top of Create Honey").gray()])
+  allthemods.add("create:limestone", [Text.of("放置一个熔岩源方块并让它在机械动力的蜂蜜上方流动").gray()])
 
-  allthemods.add("create:scoria", [Text.of("Make a Lava Source Block flow on top of Create Chocolate").gray()])
+  allthemods.add("create:scoria", [Text.of("放置一个熔岩源方块并让它在机械动力的巧克力上方流动").gray()])
 })
 
 // This File has been authored by AllTheMods Staff, or a Community contributor for use in AllTheMods - AllTheMods 10.

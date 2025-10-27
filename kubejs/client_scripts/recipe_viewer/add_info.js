@@ -3,7 +3,7 @@
 
 RecipeViewerEvents.addInformation("fluid", (allthemods) => {
   allthemods.add("advanced_ae:quantum_infusion_source", [
-    "In the Reaction Chamber: §e4000mb of Water§f + §e1x Quantum Infused Dust§f = §b1000mb of Quantum Infusion"
+    "在反应仓中： §e4000mb 水§f + §e1x 破碎奇点粉§f = §b1000mb 量子灌注液"
   ])
 })
 
