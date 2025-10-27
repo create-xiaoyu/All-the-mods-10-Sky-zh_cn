@@ -95,7 +95,7 @@ ServerEvents.recipes((allthemods) => {
     /** @type {$ItemStackKJS_} */
     let output = recipe.get("result")
     if (!logsTag["matches(net.minecraft.world.item.crafting.Ingredient,boolean)"](firstIngredient, false)) {
-      console.info("Ingredient is not a log tag: " + Ingredient.of(firstIngredient).toJson())
+      console.info("Ingredient 不是日志tag：" + Ingredient.of(firstIngredient).toJson())
       return
     }
 

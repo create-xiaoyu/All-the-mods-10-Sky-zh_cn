@@ -83,16 +83,16 @@ ServerEvents.generateData("after_mods", function (allthemods) {
      */
     build(allthemods) {
       if (this._result.item == null || this._result.count < 1) {
-        throw new Error("Result item must exist and count must be greater than 0")
+        throw new Error("结果项必须存在，并且数量必须大于0")
       }
       if (this._tier < 1 || this._tier > 5) {
-        throw new Error("Forge tier must be between 1 and 5 (inclusive)")
+        throw new Error("Forge 等级必须在1到5之间（含1和5）")
       }
       if (this._catalyst == null) {
-        throw new Error("Main Ingredient (Catalyst) must exist")
+        throw new Error("主要 ingredient(Catalyst) 必须存在")
       }
       if (this._ingredients.length < 1 || this._ingredients.length > 8) {
-        throw new Error("At least 1 ingredient and no more than 8 ingredients are required")
+        throw new Error("至少需要1种ingredient，最多不超过8种ingredient")
       }
       allthemods.json(
         "allthemods:forbidden_arcanus/hephaestus_forge/ritual/" + this._result.item.split(":").pop() + ".json",

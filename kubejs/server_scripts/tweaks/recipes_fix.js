@@ -104,5 +104,5 @@ KubeJSTweaks.beforeRecipes((event) => {
     }
   })
 
-  console.log(`Fixing recipes took ${timer.stop().elapsed("milliseconds")} ms...`)
+  console.log(`修复配方书用了 ${timer.stop().elapsed("毫秒")} ms...`)
 })

@@ -42,7 +42,7 @@ if (!Platform.isClientEnvironment()) {
       if (bannedEntities.contains(event.entity.type)) {
         event.level.server.tell(
           Text.red(
-            "Removed banned entity: " + event.entity.type + " at " + event.entity.blockPosition().toShortString()
+            "已删除被封禁的实体：" + event.entity.type + " 在 " + event.entity.blockPosition().toShortString()
           )
         )
         event.setCanceled(true)
@@ -65,8 +65,8 @@ if (!Platform.isClientEnvironment()) {
 
     PlayerEvents.loggedIn((event) => {
       let data = bannedList
-      console.log("Banned items: " + data)
-      console.log("Sending banned items to " + event.player.username)
+      console.log("封禁物品：" + data)
+      console.log("发送被封禁的物品到：" + event.player.username)
       event.player.sendData("banned_items", { banned_items: data })
     })
   }
@@ -83,7 +83,7 @@ if (!Platform.isClientEnvironment()) {
       let pos
       while ((pos = blocksToRemove.poll()) != null) {
         addSignToPos(event.level, pos)
-        event.level.server.tell("Removing banned block entity at " + pos.toShortString())
+        event.level.server.tell("删除被封禁的方块实体于 " + pos.toShortString())
       }
     })
     LevelEvents.unloaded((event) => {
@@ -95,7 +95,7 @@ if (!Platform.isClientEnvironment()) {
 function sendMessageAndCancel(/** @type {$ItemClickedKubeEvent_} */ event, type) {
   switch (type) {
     case "item":
-      event.player.setStatusMessage(Text.red("This server does not allow you to use this item!"))
+      event.player.setStatusMessage(Text.red("此服务器禁止你使用此物品！"))
       event.cancel()
       break
     default:
@@ -139,7 +139,7 @@ let addSignToPos = (/** @type {$ServerLevel_} */ level, /** @type {$BlockPos_} *
   let path = beRL.split(":")[1]
   let nbt = {
     is_waxed: 1,
-    front_text: { has_glowing_text: 1, color: "black", messages: [namespace, path, '"is banned on this"', "server"] }
+    front_text: { has_glowing_text: 1, color: "black", messages: [namespace, path, '"在此被封禁"', "server"] }
   }
   oakSignBlockEntity.loadWithComponents(nbt, level.registryAccess())
 }
