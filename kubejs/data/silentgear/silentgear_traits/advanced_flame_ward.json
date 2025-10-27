@@ -1,7 +1,7 @@
 {
   "conditions": [],
   "description": {
-    "text": "Gives fire resistance without a full set"
+    "text": "无需整套装备即可提供火焰抗性"
   },
   "effects": [
     {
@@ -21,9 +21,9 @@
       }
     }
   ],
-  "extra_wiki_lines": ["  - The item cannot be destroyed by fire or lava"],
+  "extra_wiki_lines": ["  - 该物品无法被火或熔岩烧毁"],
   "max_level": 1,
   "name": {
-    "text": "Advanced Flame Ward"
+    "text": "高级火焰保护"
   }
 }

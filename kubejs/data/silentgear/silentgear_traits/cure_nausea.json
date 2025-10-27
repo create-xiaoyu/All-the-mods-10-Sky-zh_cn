@@ -1,7 +1,7 @@
 {
   "conditions": [],
   "description": {
-    "text": "Removes nausea effect when equipped"
+    "text": "装备时消除反胃效果"
   },
   "effects": [
     {
@@ -11,6 +11,6 @@
   ],
   "max_level": 1,
   "name": {
-    "text": "Cure Nausea"
+    "text": "解除反胃"
   }
 }

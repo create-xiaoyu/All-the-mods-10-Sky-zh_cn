@@ -1,7 +1,7 @@
 {
   "conditions": [],
   "description": {
-    "text": "Advanced Aquatic gives waterbreathing without a full set"
+    "text": "高级水栖提供水下呼吸效果，不需要整套装备"
   },
   "effects": [
     {
@@ -20,6 +20,6 @@
   ],
   "max_level": 5,
   "name": {
-    "text": "Advanced Aquatic"
+    "text": "高级水栖"
   }
 }
